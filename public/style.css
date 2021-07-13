@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+main {
+    background-color: white;
+    margin: 0 30px;
+    height: 200px;
+    margin-top: 16%;
+}
+.NavBar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    color: #333;
+    font-size: 23px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ff4500;
+}
+li {
+    padding-left: 50px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.Home {
+    text-decoration: underline;
+}
+.Contact {
+    text-decoration: underline;
+}
+.Services {
+    text-decoration: underline;
+}
+.Link {
+    color: #a26e42;
+}
+
+.Link:hover {
+    color: #ff4500;
+}
+
+h1 {
+    color: #a26e42;
+
+    font-size: xx-large;
+}
+h5 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    font-weight: bold;
+}
+h3 {
+    margin: 0;
+    padding: 20px 20px;
+    bottom: 720px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: x-large;
+    color: #333;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    color: #333;
+}
+.Sign-Up-Btn {
+    border-radius: 5px;
+    border: transparent;
+    background-color: #a26e42;
+    color: #333;
+    padding: 10px 10px;
+    bottom: 700px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Sign-Up-Btn:focus {
+    outline: none;
+}
+.Log-In-Btn {
+    border-radius: 5px;
+    border: transparent;
+    background-color: #333;
+    color: #efefef;
+    padding: 10px 10px;
+    bottom: 700px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Log-In-Btn:focus {
+    outline: none;
+}
+.close-img {
+    width: 100%;
+    height: 100%;
+}
